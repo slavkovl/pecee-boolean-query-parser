@@ -11,6 +11,10 @@ class ParserTest extends TestCase
     {
         $parser = new BooleanQueryParser();
 
+        
+        
+        
+        
         $this->assertEquals('+ict', $parser->parse('ict'));
         $this->assertEquals('+ict +it', $parser->parse('ict it'));
         $this->assertEquals('ict it', $parser->parse('ict OR it'));
