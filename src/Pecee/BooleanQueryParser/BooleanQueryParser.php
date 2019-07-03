@@ -6,6 +6,14 @@ class BooleanQueryParser
 {
     protected $splitter;
 
+    
+    
+    
+    sdfsdf
+    
+    
+    
+    
     public const AND_TOKEN = 'and';
     public const OR_TOKEN = 'or';
     public const NOT_TOKEN = 'not';
